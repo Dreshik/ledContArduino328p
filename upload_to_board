@@ -1,0 +1,2 @@
+#!/bin/bash
+avrdude -c usbasp -p m328p -P usb -U flash:w:image/firmware.hex
